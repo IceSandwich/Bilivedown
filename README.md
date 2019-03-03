@@ -21,6 +21,8 @@ Bilivedown
 ## via binary package
 The binary package will provide for windows, linux, android(run on termux). 
 If there is no correct version of your system, you can compile it by yourself.
+Baidupcs: 链接: https://pan.baidu.com/s/1zRqA58S7Z9w897_V7hx9OQ 提取码: pabx
+GoogleDrive: https://drive.google.com/drive/folders/13lAn3xysFVMgrWFn7ExSViK4RJQV-11D
 ## via source code
 It's simple to build using go tool, type:
 ``` bash
@@ -29,7 +31,7 @@ cd Bilivedown
 go build
 ```
 
-# How to do with the ts files?
+# What to do with the ts files?
 You can merge them like this:
 ``` bash
 # Windows
