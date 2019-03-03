@@ -9,7 +9,12 @@ All parameters will be stored in Setting.ini file.
 ## via go tool
 Just type following command in shell:
 ``` bash
+# Clone the repositories via git
 go get github.com/IceSandwich/Bilivedown
+# After `go get` command, you can't run it directly. It need Setting.ini file.
+cp $GOPATH/src/github.com/IceSandwich/Bilivedown/Setting.ini $GOPATH/bin/Setting.ini
+# Now you can run this program.
+Bilivedown
 ```
 ## via binary package
 The binary package will provide for windows, linux, android. 
