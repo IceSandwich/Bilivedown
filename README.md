@@ -11,11 +11,11 @@ Just type following command in shell:
 ``` bash
 # Clone the repository via go tool
 go get github.com/IceSandwich/Bilivedown
-# After `go get` command, you can't run it directly. It need Setting.ini file.
+# After `go get` command, you can't run it directly. It needs Setting.ini file.
 cp $GOPATH/src/github.com/IceSandwich/Bilivedown/Setting.ini $GOPATH/bin/Setting.ini
 # Edit some parameters.
 vim $GOPATH/Setting.ini
-# Now you can run this program and recording live stream.
+# Now you can run this program and start recording live stream~
 Bilivedown
 ```
 ## via binary package
