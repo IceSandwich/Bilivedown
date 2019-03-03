@@ -14,11 +14,10 @@ func TestGetDomain(t *testing.T) {
 		}
 	}()
 
-	tf("https://www.baidu.com", "www.baidu.com")
-	tf("https://api.live.bilibili.com/room/v1/Room/playUrl?cid=%d&platform=h5&otype=json&quality=0", "api.live.bilibili.com")
+	tf("https://www.google.com", "www.google.com")
+	tf("https://api.live.bilibili.com/room/v1/Room/playUrl?cid=0&platform=h5&otype=json&quality=0", "api.live.bilibili.com")
 }
 
 func TestDownload(t *testing.T) {
-	//Download("https://api.live.bilibili.com/room/v1/Room/playUrl?cid=37702&platform=h5&otype=json&quality=0", "page.html")
-	Download("https://www.baidu.com", "page2.html")
+	Download("https://www.google.com", "page.html")
 }

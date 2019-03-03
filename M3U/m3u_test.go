@@ -6,7 +6,7 @@ import (
 )
 
 func TestParseM3U(t *testing.T) {
-	fn := "/home/cxn/桌面/live_2027557_332_c521e483.m3u8"
+	fn := "live_2027557_332_c521e483.m3u8"
 	bs, err := ioutil.ReadFile(fn)
 	if err != nil {
 		t.Error(err)
