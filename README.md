@@ -1,5 +1,6 @@
 # Bilivedown
 A bilibili live stream recording tool
+**This project will not maintain anymore**
 
 # Usage
 To make it easy to execute by some task programs like cron, this program **will not** accept any parameters.   
